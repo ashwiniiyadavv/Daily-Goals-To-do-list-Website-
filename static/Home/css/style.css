@@ -1,0 +1,30 @@
+nav{
+    font-family: ".New York";
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+    flex-direction:row;
+    color:black;
+    margin: 2rem;
+
+}
+.links{
+    display:flex;
+    flex-direction: row;
+    
+ 
+    justify-content: space-between;
+}
+a{
+    color:#393939;
+    font-family: ".New York";
+    text-decoration:none;
+    margin-right: 1rem;
+
+}
+#websiteName{
+    color:black;
+    font-family: ".New York";
+    font-size: 1.875rem;
+    font-weight: 674;
+}
