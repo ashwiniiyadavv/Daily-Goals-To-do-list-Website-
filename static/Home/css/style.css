@@ -2,29 +2,68 @@ nav{
     font-family: ".New York";
     font-weight: bold;
     display: flex;
-    justify-content: space-between;
     flex-direction:row;
     color:black;
-    margin: 2rem;
+    margin-left: 3rem;
+    margin-right: 3rem;
+    margin-top: 2rem;
+    justify-content: space-between;
+
 
 }
 .links{
-    display:flex;
-    flex-direction: row;
     
+    
+    color: #393939;
+   
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 674;
+    line-height: normal;
  
-    justify-content: space-between;
+  
+
 }
+
 a{
     color:#393939;
     font-family: ".New York";
+    font-size:1.5rem ;
     text-decoration:none;
-    margin-right: 1rem;
+    
+   
 
 }
+#hero-section{
+    display:flex;
+    flex-direction: row;
+  
+}
+
 #websiteName{
     color:black;
     font-family: ".New York";
-    font-size: 1.875rem;
+    font-size: 3rem;
     font-weight: 674;
+}
+#End-section{
+    display:flex;
+    flex-direction:row;
+
+}
+.heading{
+    color: #000;
+font-family: ".New York";
+font-size: 2.8125rem;
+font-style: normal;
+font-weight: 674;
+line-height: normal;
+}
+.subheading{
+    color:#000;
+    font-family:".New York";
+    font-size:1.25rem;
+    font-style:normal;
+    font-weight:400;
+
 }
