@@ -1,69 +1,76 @@
-nav{
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav {
     font-family: ".New York";
     font-weight: bold;
-    display: flex;
-    flex-direction:row;
-    color:black;
+    color: black;
     margin-left: 3rem;
     margin-right: 3rem;
     margin-top: 2rem;
-    justify-content: space-between;
-
-
+    display: grid;
+    align-items: center;
+    /* 9 grid columns with auto width of each*/
+    grid-template-columns: repeat(9, auto);
+    column-gap: 1rem;
 }
-.links{
-    
-    
+
+/* all the links in the nav element */
+/* nav a selects all a inside nav */
+/* nav>a selects direct 'a' child  */
+/* i.e. nav a won't select 'a' grandchild and further children*/
+nav>a {
     color: #393939;
-   
     font-size: 1.5rem;
     font-style: normal;
     font-weight: 674;
     line-height: normal;
- 
-  
-
-}
-
-a{
-    color:#393939;
     font-family: ".New York";
-    font-size:1.5rem ;
-    text-decoration:none;
-    
-   
-
+    text-decoration: none;
+    gap: 12%;
+    ;
+    width: fit-content;
 }
-#hero-section{
-    display:flex;
+
+#hero-section {
+    display: flex;
     flex-direction: row;
-  
+
 }
 
-#websiteName{
-    color:black;
+/* all the div tags inside nav tag */
+/*this is the website name css*/
+nav div {
+    color: black;
     font-family: ".New York";
     font-size: 3rem;
     font-weight: 674;
+    grid-column: span 2;
 }
-#End-section{
-    display:flex;
-    flex-direction:row;
+
+#End-section {
+    display: flex;
+    flex-direction: row;
 
 }
-.heading{
+
+.heading {
     color: #000;
-font-family: ".New York";
-font-size: 2.8125rem;
-font-style: normal;
-font-weight: 674;
-line-height: normal;
+    font-family: ".New York";
+    font-size: 2.8125rem;
+    font-style: normal;
+    font-weight: 674;
+    line-height: normal;
 }
-.subheading{
-    color:#000;
-    font-family:".New York";
-    font-size:1.25rem;
-    font-style:normal;
-    font-weight:400;
+
+.subheading {
+    color: #000;
+    font-family: ".New York";
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 400;
 
 }
